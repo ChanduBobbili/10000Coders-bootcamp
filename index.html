@@ -1,1 +1,46 @@
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="cnt">
+      <label for="name">full name</label>
+      <input id="name" type="text" placeholder="enter your full name" ><br>
+      <label for="pin" >secret pin</label>
+      <input id="pin" type="password" placeholder="enter your secret pin" ><br>
+      <div class="gender">
+        <label >Gender</label>
+        <input id="g" name="gender" type="radio" >
+        <label for="g" >male</label>
+        <input id="f" name="gender" type="radio">
+        <label for="f" >female</label>
+      </div>
+      <div class="check">
+        <label >I expert in </label>
+        <input id="g1" name="check" type="checkbox" >
+        <label for="g1" >HTML</label>
+        <input id="g2" name="check" type="checkbox">
+        <label for="g2" >CSS</label>
+      </div>
+      <div class="list">
+         <label for="l" >my field of study is</label>
+         <input id="l" placeholder="select your branch using the select drop-down " list="browsers">
+
+         <datalist id="browsers">
+           <option value="Post Graduate">
+           <option value="Under Graduate">
+           <option value="Intermediate">
+           <option value="School">
+          </datalist>
+      </div>
+      <label for="t" >tell more about yourself</label>
+      <input id="t" type="text" placeholder="this is text area.Enter your description" >
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
