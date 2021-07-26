@@ -18,3 +18,10 @@ body{
 input{
   border: 1px solid green;
 }
+
+.btn{
+  margin-left:40%;
+  text-align:center;
+  border:2px solid black;
+  border-radius:25px;
+}
